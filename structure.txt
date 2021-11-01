@@ -1,0 +1,24 @@
+<UserCard> [Box]
+    <UserInfoBox>
+        <Avatar>
+        Heading
+        Text
+    <UserDateBox>
+        Daily [Typography]
+        Weekly [Typography]
+        Monthly [Typography]
+<ActivityCard> [Box]
+    <ActivityColorBox> [Box]
+        <img>
+    <ActivityInfoBox> 
+        Title
+        Top-right-button
+        nHours [Typography]
+        postDate [Typography]
+
+
+LAYOUT:
+
+<GridContainer>
+    <GridItem md={3} xs={12} />
+    <GridItem md={9} xs={12} />
